@@ -2,12 +2,13 @@
 
 .AppHeader {
     height: 64px;
-    background-color: white;
+    background-color: #81C784;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     z-index: 10;
+    border-bottom: 1px solid $border;
 }
 
 .AppHeader-container{
@@ -15,14 +16,14 @@
 }
 
 .AppHeader-logo {
-    width: 171px;
-    height: 41px;
-    padding-top: 13px;
+    width: auto;
+    height: 48px;
+    padding-top: 8px;
 }
 
 .AppHeader-link{
     text-decoration: none;
-    color: $black !important;
+    color: white !important;
     padding: 0 20px;
     display: inline-block;
     transition: 250ms background-color;
@@ -30,7 +31,7 @@
 }
 
 .AppHeader-link:hover{
-    background-color: $background;
+    background-color: #2E7D32;
 }
 
 .AppHeader-github{
